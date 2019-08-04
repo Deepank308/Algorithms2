@@ -1,0 +1,152 @@
+\documentclass{article}
+
+\usepackage{amsmath}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage[noend]{algpseudocode}
+
+
+\begin{document}
+    \title{Tutorial 1}
+    \date{18-07-2019}
+    \author{Deepank Agrawal (17CS30011)}
+  \maketitle
+  
+  \section{Problem Statement}
+    $A[1..m]$ and $B[1..n]$ are two 1D arrays containing $m$ and $n$ integers 
+    respectively, where $m\le n$.
+    We need to construct a sub-array $C[1..m]$ of $B$ such that the
+    \newline\textbf{expression} $\sum\limits_{i=1}^{m} \big|A[i]-C[i]\big|$ is minimized.
+  
+  \section{Recurrences}
+    
+    To solve the problem, we can design a Dynamic Programming(DP) algorithm. The
+    formulation of the DP is: \\
+    Suppose that for any $i \, \epsilon \,[1, m]$ and $k \, \epsilon
+    \,[1, n]$, $ i \le k$, we have already scanned arrays $A[1..i-1]$ and
+    constructed $C[1..i-1]$, which is the optimal sub-array. Now, for $A[i]$, on scanning 
+    any $B[k]\,\forall \, k\,\epsilon\,[1, n]$, the following two cases arise for 
+    construction of the optimal sub-array C:
+    \begin{enumerate}
+        \item $B[k]$ is included in C.
+        \item $B[k]$ is not included in C.
+    \end{enumerate}
+    If $B[k]$ is included in C, then $C[1..i-1]\,\cup\,B[k]$ should be the so-far optimal
+    sub-array. Else, $B[k]$ is not included and $C[1..i-1]$ is the optimal sub-array.
+    This is decided by whether or not including $B[k]$ minimizes $M[i][k]$ i.e., whether
+    $\big|A[i]-B[k]\big|\,+\,M[i-1][k-1]\,\textless\,M[i][k-1]$ or not.
+    
+    Let's consider an array $M[1..m][1..n]$, where $M[i][k]$ stores the minimal value of 
+    the expression for arrays $A[1..i]$ and $B[1..k]$.
+    Now the recurrence relation for the DP, $\forall i\, \epsilon \,[0,
+    m],\,k\,\epsilon\,[0, n]$, can be defined as:
+    
+    \begin{equation}
+        M[i][k]=
+        \begin{cases}
+            0, & \text{$i=0$}\\
+            \infty, & \text{$i\,\textless\,k$}\\
+            min\left\{\big|A[i]-B[k]\big|\,+\,M[i-1][k-1],\,M[i][k-1]\right\}, & 
+            \text{$k\geq i$}\\
+        \end{cases}
+    \end{equation}
+
+    So, $M[m][n]$ will have the final minimum value of the expression.
+    
+  \section{Algorithm}
+    
+    Now that Optimal Substructure has been defined, let's design the algorithm. Before 
+    that, we can see there are \textbf{overlapping sub-problems} (e.g. $M[3][5]$ will
+    be required for both $M[4][6]$ and $M[3][6]$). So, \textbf{memoization} will be used.
+    
+    To solve the problem, we store the minimal value of the expression $\forall 
+    i, \,k,\, i\le k$ using equation (1) and along-side store $B[k]$ to be included in 
+    the optimal sub-array. For this we construct a matrix $M[0..m][0..n]$, where 
+    $M[i][k]$ stores the minimal value of the expression for arrays $A[1..i]$ and 
+    $B[1..k]$ and an array $C[0..m]$ to store the included $B[k]$ values. Bottom-up
+    approach will be used to fill matrix $M$.
+
+    The optimal sub-array $C$ is updated when $M[i][k]\,\ne\,M[i][k-1]$ in a top-down
+    fashion. For this, iterate matrix $M\,:\,(m,\,n)\,\rightarrow\,(1,\,1)$ 
+    and check for $M[i][k]\,\ne\,M[i][k-1]$ condition.\\
+    
+    \newline\newline \textbf{Pseudocode:}
+    
+    \begin{enumerate}
+        \item \textbf{initialize $M[1..m][0..n]$ with $\infty$ and $M[0][0..n]$ with $0$}
+        \item \textbf{for $i : 1\,\rightarrow\,m\,$ do} 
+        \quad\quad\Comment{\textit{Construct M}}
+        \item \quad\textbf{for $k : i\,\rightarrow\,n\,$ do}
+        \item \quad\quad\textbf{$M[i][k]\,\leftarrow\,min\left\{\big|A[i]-B[k]\big| + 
+        M[i-1][k-1], M[i][k-1]\right\}$}
+        \item \quad\textbf{end for}
+        \item \textbf{end for}
+        \item \textbf{$i\,\leftarrow\,m\,,\,k\,\leftarrow\,n$}
+        \item \textbf{while $i\,\ne\,0$ do} 
+        \quad\quad\Comment{\textit{Construct C}}
+        \item \quad\textbf{if $M[i][k]\,\ne\,M[i][k-1]$, then do}
+        \item \quad\quad\textbf{$C[i]\,\leftarrow\,B[k]$}
+        \item \quad\quad\textbf{$i\,\leftarrow\,i-1$}
+        \item \quad\textbf{end if}
+        \item \quad\textbf{$k\,\leftarrow\,k-1$}
+        \item \textbf{end while}
+    \end{enumerate}
+    \pagebreak
+  \section{Demonstration}
+  
+    \begin{enumerate}
+        \item Let $A\,=\,[9,\,10]\,\&\,B\,=\,[4,\,9,\,14]$\\
+        Now, $M[1][1]\,=\,\text{min}\{\big|A[1]-B[1]\big|+M[0][0],\,M[1][0]\}$\\
+        or, $M[1][1]\,=\,\text{min}\{\big|9-4\big|+0,\,\infty\}$
+        or, $M[1][1]\,=\,\text{min}\{5,\,\infty\}\,=\,5$\\
+        and, $C[1]\,=\,B[1]\,=\,4$.\\
+        Similarly, the matrix $M[0..m][0..n]$ will be:\\
+        \newline$M$ = \begin{bmatrix}
+                0 & 0 & 0 & 0 \\
+                \infty & 5 & 0 & 0 \\
+                \infty & \infty & 6 & 4 
+              \end{bmatrix}\\
+        \newline Here, since $M[2][3] \ne M[2][2]$ so, $C[2]\,=\,B[3]\,=\,14$\\
+        and, $M[1][2] \ne M[1][1]$ so, $C[1]\,=\,B[2]\,=\,9$\\
+        Hence, $C\,=\,[9,\,14]$ is the optimal sub-array.
+        \newline\newline\item Let $A\,=\,[2,\,7,\,2]\,\&\,B\,=\,[5,\,3,\,6,\,8]$\\
+        As above, constructing the matrix $M[0..m][0..n]$:\\
+        \newline$M$ = \begin{bmatrix}
+                0 & 0 & 0 & 0 & 0 \\
+                \infty & 3 & 1 & 1 & 1 \\
+                \infty & \infty & 7 & 2 & 2 \\
+                \infty & \infty & \infty & 11 & 8
+              \end{bmatrix}\\
+        \newline Here, $M[3][4]\,\ne\,M[3][3],\,M[2][3]\,\ne\,M[2][2],\,M[1][2]\,\ne\,M[1]
+        [1]$\\
+        So, $C[3]\,=\,B[4]\,=8,\,C[2]=\,B[3]\,=6,\,C[1]\,=\,B[2]\,=3$\\
+        Hence, $C\,=\,[3,\,6,\,8]$ is the optimal sub-array.
+        \newline\newline\item Let 
+        $A\,=\,[9,\,10,\,12]\,\&\,B\,=\,[7,\,6,\,9,\,8,\,9,\,12]$\\
+        As above, constructing the matrix $M[0..m][0..n]$:\\
+        \newline$M$ = \begin{bmatrix}
+                0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+                \infty & 2 & 2 & 0 & 0 & 0 & 0 \\
+                \infty & \infty & 6 & 3 & 2 & 1 & 1 \\
+                \infty & \infty & \infty & 9 & 7 & 5 & 2 \\
+              \end{bmatrix}\\
+        \newline Here, $M[3][6]\,\ne\,M[3][5],\,M[2][5]\,\ne\,M[2][4],\,M[1][3]\,\ne\,M[1]
+        [2]$\\
+        So, $C[3]\,=\,B[6]\,=12,\,C[2]=\,B[5]\,=9,\,C[1]\,=\,B[3]\,=9$\\
+        Hence, $C\,=\,[9,\,9,\,12]$ is the optimal sub-array.
+    \end{enumerate}
+    \pagebreak
+  \section{Time and space complexities}
+  
+    \subsection{Time Complexity}
+    Let's refer to the above mentioned pseudocode for calculation of time complexity.
+    As we can see, from line no. $2\,\&\,3$, the for loops are of $O(m)\,and\,O(n)$
+    complexity respectively. Inside the nested for loops, the operation is of 
+    $O(1)$ time. Also, from line no. $8$, the while loop is of $O(n)$ time. So, the 
+    total time complexity of the algorithm is $O(mn)$ because of the nested loops.
+    
+    \subsection{Space Complexity}
+    As a matrix $M[0..m][0..n]$ is constructed, the space complexity of the algorithm 
+    will also be $O(mn)$.\\
+    
+\end{document}
