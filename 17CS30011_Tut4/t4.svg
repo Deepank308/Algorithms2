@@ -1,0 +1,183 @@
+<svg width = "1000" height = "1000" xmlns = "http://www.w3.org/2000/svg">
+<rect x = "10" y = "10" width = "1040" height = "1040" style = "fill:rgb(255,255,255); stroke-width:20; stroke:rgb(255,255,255)"/>
+<line x1 = "537.346" y1 = "88.8248" x2 = "548.624" y2 = "-10.5372" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "537.346" y1 = "88.8248" x2 = "650.125" y2 = "-904.795" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "714.878" y1 = "407.757" x2 = "737.962" y2 = "310.457" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "714.878" y1 = "407.757" x2 = "945.71" y2 = "-565.237" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "332.069" y1 = "376.476" x2 = "-431.207" y2 = "-269.596" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "332.069" y1 = "376.476" x2 = "255.741" y2 = "311.869" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "537.346" y1 = "88.8248" x2 = "632.544" y2 = "377.865" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "632.544" y1 = "377.865" x2 = "537.346" y2 = "88.8248" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "454.988" y1 = "301.228" x2 = "537.346" y2 = "88.8248" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "537.346" y1 = "88.8248" x2 = "454.988" y2 = "301.228" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "336.164" y1 = "376.099" x2 = "454.988" y2 = "301.228" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "454.988" y1 = "301.228" x2 = "336.164" y2 = "376.099" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "477.611" y1 = "433.265" x2 = "454.988" y2 = "301.228" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "454.988" y1 = "301.228" x2 = "477.611" y2 = "433.265" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "632.544" y1 = "377.865" x2 = "714.878" y2 = "407.757" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "714.878" y1 = "407.757" x2 = "632.544" y2 = "377.865" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "200.947" y1 = "492.932" x2 = "332.069" y2 = "376.476" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "332.069" y1 = "376.476" x2 = "200.947" y2 = "492.932" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "336.164" y1 = "376.099" x2 = "332.069" y2 = "376.476" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "332.069" y1 = "376.476" x2 = "336.164" y2 = "376.099" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "374.48" y1 = "476.173" x2 = "336.164" y2 = "376.099" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "336.164" y1 = "376.099" x2 = "374.48" y2 = "476.173" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "600.983" y1 = "450.885" x2 = "632.544" y2 = "377.865" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "632.544" y1 = "377.865" x2 = "600.983" y2 = "450.885" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "863.882" y1 = "542.049" x2 = "714.878" y2 = "407.757" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "714.878" y1 = "407.757" x2 = "863.882" y2 = "542.049" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "391.9" y1 = "476.652" x2 = "477.611" y2 = "433.265" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "477.611" y1 = "433.265" x2 = "391.9" y2 = "476.652" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "502.491" y1 = "461.634" x2 = "600.983" y2 = "450.885" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "600.983" y1 = "450.885" x2 = "502.491" y2 = "461.634" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "502.491" y1 = "461.634" x2 = "477.611" y2 = "433.265" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "477.611" y1 = "433.265" x2 = "502.491" y2 = "461.634" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "664.125" y1 = "549.379" x2 = "600.983" y2 = "450.885" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "600.983" y1 = "450.885" x2 = "664.125" y2 = "549.379" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "374.48" y1 = "476.173" x2 = "391.9" y2 = "476.652" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "391.9" y1 = "476.652" x2 = "374.48" y2 = "476.173" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "432.241" y1 = "563.172" x2 = "391.9" y2 = "476.652" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "391.9" y1 = "476.652" x2 = "432.241" y2 = "563.172" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "340.406" y1 = "503.137" x2 = "374.48" y2 = "476.173" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "374.48" y1 = "476.173" x2 = "340.406" y2 = "503.137" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "501.12" y1 = "495.997" x2 = "502.491" y2 = "461.634" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "502.491" y1 = "461.634" x2 = "501.12" y2 = "495.997" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "200.947" y1 = "492.932" x2 = "340.406" y2 = "503.137" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "340.406" y1 = "503.137" x2 = "200.947" y2 = "492.932" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "371.398" y1 = "582.768" x2 = "340.406" y2 = "503.137" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "340.406" y1 = "503.137" x2 = "371.398" y2 = "582.768" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "432.241" y1 = "563.172" x2 = "501.12" y2 = "495.997" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "501.12" y1 = "495.997" x2 = "432.241" y2 = "563.172" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "543.016" y1 = "560.155" x2 = "501.12" y2 = "495.997" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "501.12" y1 = "495.997" x2 = "543.016" y2 = "560.155" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "543.016" y1 = "560.155" x2 = "642.049" y2 = "561.099" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "642.049" y1 = "561.099" x2 = "543.016" y2 = "560.155" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "525.762" y1 = "591.045" x2 = "543.016" y2 = "560.155" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "543.016" y1 = "560.155" x2 = "525.762" y2 = "591.045" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "428.234" y1 = "573.851" x2 = "432.241" y2 = "563.172" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "432.241" y1 = "563.172" x2 = "428.234" y2 = "573.851" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "-24.2422" y1 = "570.433" x2 = "200.947" y2 = "492.932" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "200.947" y1 = "492.932" x2 = "-24.2422" y2 = "570.433" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "402.96" y1 = "580.628" x2 = "428.234" y2 = "573.851" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "428.234" y1 = "573.851" x2 = "402.96" y2 = "580.628" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "465.69" y1 = "612.063" x2 = "525.762" y2 = "591.045" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "525.762" y1 = "591.045" x2 = "465.69" y2 = "612.063" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "465.69" y1 = "612.063" x2 = "428.234" y2 = "573.851" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "428.234" y1 = "573.851" x2 = "465.69" y2 = "612.063" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "371.398" y1 = "582.768" x2 = "402.96" y2 = "580.628" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "402.96" y1 = "580.628" x2 = "371.398" y2 = "582.768" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "410.055" y1 = "677.492" x2 = "402.96" y2 = "580.628" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "402.96" y1 = "580.628" x2 = "410.055" y2 = "677.492" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "560.162" y1 = "662.285" x2 = "525.762" y2 = "591.045" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "525.762" y1 = "591.045" x2 = "560.162" y2 = "662.285" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "348.888" y1 = "603.433" x2 = "371.398" y2 = "582.768" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "371.398" y1 = "582.768" x2 = "348.888" y2 = "603.433" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "576.999" y1 = "679.255" x2 = "642.049" y2 = "561.099" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "642.049" y1 = "561.099" x2 = "576.999" y2 = "679.255" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "664.125" y1 = "549.379" x2 = "642.049" y2 = "561.099" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "642.049" y1 = "561.099" x2 = "664.125" y2 = "549.379" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "764.016" y1 = "563.492" x2 = "664.125" y2 = "549.379" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "664.125" y1 = "549.379" x2 = "764.016" y2 = "563.492" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "107.515" y1 = "598.083" x2 = "348.888" y2 = "603.433" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "348.888" y1 = "603.433" x2 = "107.515" y2 = "598.083" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "371.789" y1 = "711.79" x2 = "348.888" y2 = "603.433" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "348.888" y1 = "603.433" x2 = "371.789" y2 = "711.79" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "465.414" y1 = "643.373" x2 = "465.69" y2 = "612.063" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "465.69" y1 = "612.063" x2 = "465.414" y2 = "643.373" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "465.414" y1 = "643.373" x2 = "560.162" y2 = "662.285" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "560.162" y1 = "662.285" x2 = "465.414" y2 = "643.373" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "462.923" y1 = "649.619" x2 = "465.414" y2 = "643.373" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "465.414" y1 = "643.373" x2 = "462.923" y2 = "649.619" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "410.055" y1 = "677.492" x2 = "462.923" y2 = "649.619" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "462.923" y1 = "649.619" x2 = "410.055" y2 = "677.492" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "486.734" y1 = "700.816" x2 = "462.923" y2 = "649.619" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "462.923" y1 = "649.619" x2 = "486.734" y2 = "700.816" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "689.246" y1 = "670.884" x2 = "764.016" y2 = "563.492" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "764.016" y1 = "563.492" x2 = "689.246" y2 = "670.884" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "579.124" y1 = "693.372" x2 = "689.246" y2 = "670.884" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "689.246" y1 = "670.884" x2 = "579.124" y2 = "693.372" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "863.882" y1 = "542.049" x2 = "764.016" y2 = "563.492" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "764.016" y1 = "563.492" x2 = "863.882" y2 = "542.049" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "576.999" y1 = "679.255" x2 = "560.162" y2 = "662.285" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "560.162" y1 = "662.285" x2 = "576.999" y2 = "679.255" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "371.789" y1 = "711.79" x2 = "410.055" y2 = "677.492" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "410.055" y1 = "677.492" x2 = "371.789" y2 = "711.79" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "705.131" y1 = "1481.61" x2 = "689.246" y2 = "670.884" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "689.246" y1 = "670.884" x2 = "705.131" y2 = "1481.61" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "107.515" y1 = "598.083" x2 = "369.157" y2 = "719.713" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "369.157" y1 = "719.713" x2 = "107.515" y2 = "598.083" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "486.734" y1 = "700.816" x2 = "573.694" y2 = "713.404" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "573.694" y1 = "713.404" x2 = "486.734" y2 = "700.816" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "386.08" y1 = "816.471" x2 = "486.734" y2 = "700.816" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "486.734" y1 = "700.816" x2 = "386.08" y2 = "816.471" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "579.124" y1 = "693.372" x2 = "576.999" y2 = "679.255" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "576.999" y1 = "679.255" x2 = "579.124" y2 = "693.372" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "863.882" y1 = "542.049" x2 = "1861.65" y2 = "608.804" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "863.882" y1 = "542.049" x2 = "963.659" y2 = "548.725" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "573.694" y1 = "713.404" x2 = "579.124" y2 = "693.372" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "579.124" y1 = "693.372" x2 = "573.694" y2 = "713.404" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "369.157" y1 = "719.713" x2 = "371.789" y2 = "711.79" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "371.789" y1 = "711.79" x2 = "369.157" y2 = "719.713" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "705.131" y1 = "1481.61" x2 = "573.694" y2 = "713.404" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "573.694" y1 = "713.404" x2 = "705.131" y2 = "1481.61" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "386.08" y1 = "816.471" x2 = "369.157" y2 = "719.713" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "369.157" y1 = "719.713" x2 = "386.08" y2 = "816.471" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "-24.2422" y1 = "570.433" x2 = "107.515" y2 = "598.083" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "107.515" y1 = "598.083" x2 = "-24.2422" y2 = "570.433" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "-24.2422" y1 = "570.433" x2 = "-1021.39" y2 = "645.885" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "-24.2422" y1 = "570.433" x2 = "-123.957" y2 = "577.978" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "386.08" y1 = "816.471" x2 = "330.84" y2 = "1814.94" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "386.08" y1 = "816.471" x2 = "380.556" y2 = "916.319" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "705.131" y1 = "1481.61" x2 = "827.565" y2 = "2474.09" stroke = "lightpink" stroke-opacity = "1"/>
+<line x1 = "705.131" y1 = "1481.61" x2 = "717.374" y2 = "1580.86" stroke = "lightpink" stroke-opacity = "1"/>
+<circle cx = "314.895" cy = "304.404" r = "43.9153" stroke = "lightblue" stroke-width = "0" fill = "lightblue" fill-opacity = "0.5"/>
+<circle cx = "705.824" cy = "348.776" r = "22.4249" stroke = "lightblue" stroke-width = "0" fill = "lightblue" fill-opacity = "0.5"/>
+<circle cx = "749.462" cy = "359.128" r = "22.4249" stroke = "lightblue" stroke-width = "0" fill = "lightblue" fill-opacity = "0.5"/>
+<circle cx = "258.15" cy = "371.443" r = "43.9153" stroke = "lightblue" stroke-width = "0" fill = "lightblue" fill-opacity = "0.5"/>
+<circle cx = "556.32" cy = "398.016" r = "57.4028" stroke = "lightblue" stroke-width = "0" fill = "lightblue" fill-opacity = "0.5"/>
+<circle cx = "391.657" cy = "426.229" r = "33.9001" stroke = "lightblue" stroke-width = "0" fill = "lightblue" fill-opacity = "0.5"/>
+<circle cx = "670.094" cy = "447.191" r = "52.3505" stroke = "lightblue" stroke-width = "0" fill = "lightblue" fill-opacity = "0.5"/>
+<circle cx = "328.34" cy = "450.472" r = "33.9001" stroke = "lightblue" stroke-width = "0" fill = "lightblue" fill-opacity = "0.5"/>
+<circle cx = "432.392" cy = "506.7" r = "24.0007" stroke = "lightblue" stroke-width = "0" fill = "lightblue" fill-opacity = "0.5"/>
+<circle cx = "568.776" cy = "512.144" r = "47.8196" stroke = "lightblue" stroke-width = "0" fill = "lightblue" fill-opacity = "0.5"/>
+<circle cx = "388.887" cy = "526.985" r = "24.0007" stroke = "lightblue" stroke-width = "0" fill = "lightblue" fill-opacity = "0.5"/>
+<circle cx = "320.801" cy = "553.484" r = "36.5306" stroke = "lightblue" stroke-width = "0" fill = "lightblue" fill-opacity = "0.5"/>
+<circle cx = "488.699" cy = "564.435" r = "37.3567" stroke = "lightblue" stroke-width = "0" fill = "lightblue" fill-opacity = "0.5"/>
+<circle cx = "567.856" cy = "608.648" r = "30.2513" stroke = "lightblue" stroke-width = "0" fill = "lightblue" fill-opacity = "0.5"/>
+<circle cx = "417.611" cy = "634.115" r = "10.7051" stroke = "lightblue" stroke-width = "0" fill = "lightblue" fill-opacity = "0.5"/>
+<circle cx = "513.372" cy = "634.957" r = "17.6409" stroke = "lightblue" stroke-width = "0" fill = "lightblue" fill-opacity = "0.5"/>
+<circle cx = "396.258" cy = "635.679" r = "10.7051" stroke = "lightblue" stroke-width = "0" fill = "lightblue" fill-opacity = "0.5"/>
+<circle cx = "641.55" cy = "649.22" r = "30.7688" stroke = "lightblue" stroke-width = "0" fill = "lightblue" fill-opacity = "0.5"/>
+<circle cx = "318.616" cy = "652.088" r = "39.6789" stroke = "lightblue" stroke-width = "0" fill = "lightblue" fill-opacity = "0.5"/>
+<circle cx = "506.466" cy = "669.556" r = "17.6409" stroke = "lightblue" stroke-width = "0" fill = "lightblue" fill-opacity = "0.5"/>
+<circle cx = "450.114" cy = "695.765" r = "30.9393" stroke = "lightblue" stroke-width = "0" fill = "lightblue" fill-opacity = "0.5"/>
+<circle cx = "726.115" cy = "708.098" r = "36.1332" stroke = "lightblue" stroke-width = "0" fill = "lightblue" fill-opacity = "0.5"/>
+<circle cx = "653.862" cy = "709.513" r = "30.7688" stroke = "lightblue" stroke-width = "0" fill = "lightblue" fill-opacity = "0.5"/>
+<circle cx = "284.878" cy = "724.664" r = "40.0169" stroke = "lightblue" stroke-width = "0" fill = "lightblue" fill-opacity = "0.5"/>
+<circle cx = "496.791" cy = "736.388" r = "30.9393" stroke = "lightblue" stroke-width = "0" fill = "lightblue" fill-opacity = "0.5"/>
+<circle cx = "314.895" cy = "304.404" r = "0.5" stroke = "black" stroke-width = "0" fill = "black" fill-opacity = "1"/>
+<circle cx = "705.824" cy = "348.776" r = "0.5" stroke = "black" stroke-width = "0" fill = "black" fill-opacity = "1"/>
+<circle cx = "749.462" cy = "359.128" r = "0.5" stroke = "black" stroke-width = "0" fill = "black" fill-opacity = "1"/>
+<circle cx = "258.15" cy = "371.443" r = "0.5" stroke = "black" stroke-width = "0" fill = "black" fill-opacity = "1"/>
+<circle cx = "556.32" cy = "398.016" r = "0.5" stroke = "black" stroke-width = "0" fill = "black" fill-opacity = "1"/>
+<circle cx = "391.657" cy = "426.229" r = "0.5" stroke = "black" stroke-width = "0" fill = "black" fill-opacity = "1"/>
+<circle cx = "670.094" cy = "447.191" r = "0.5" stroke = "black" stroke-width = "0" fill = "black" fill-opacity = "1"/>
+<circle cx = "328.34" cy = "450.472" r = "0.5" stroke = "black" stroke-width = "0" fill = "black" fill-opacity = "1"/>
+<circle cx = "432.392" cy = "506.7" r = "0.5" stroke = "black" stroke-width = "0" fill = "black" fill-opacity = "1"/>
+<circle cx = "568.776" cy = "512.144" r = "0.5" stroke = "black" stroke-width = "0" fill = "black" fill-opacity = "1"/>
+<circle cx = "388.887" cy = "526.985" r = "0.5" stroke = "black" stroke-width = "0" fill = "black" fill-opacity = "1"/>
+<circle cx = "320.801" cy = "553.484" r = "0.5" stroke = "black" stroke-width = "0" fill = "black" fill-opacity = "1"/>
+<circle cx = "488.699" cy = "564.435" r = "0.5" stroke = "black" stroke-width = "0" fill = "black" fill-opacity = "1"/>
+<circle cx = "567.856" cy = "608.648" r = "0.5" stroke = "black" stroke-width = "0" fill = "black" fill-opacity = "1"/>
+<circle cx = "417.611" cy = "634.115" r = "0.5" stroke = "black" stroke-width = "0" fill = "black" fill-opacity = "1"/>
+<circle cx = "513.372" cy = "634.957" r = "0.5" stroke = "black" stroke-width = "0" fill = "black" fill-opacity = "1"/>
+<circle cx = "396.258" cy = "635.679" r = "0.5" stroke = "black" stroke-width = "0" fill = "black" fill-opacity = "1"/>
+<circle cx = "641.55" cy = "649.22" r = "0.5" stroke = "black" stroke-width = "0" fill = "black" fill-opacity = "1"/>
+<circle cx = "318.616" cy = "652.088" r = "0.5" stroke = "black" stroke-width = "0" fill = "black" fill-opacity = "1"/>
+<circle cx = "506.466" cy = "669.556" r = "0.5" stroke = "black" stroke-width = "0" fill = "black" fill-opacity = "1"/>
+<circle cx = "450.114" cy = "695.765" r = "0.5" stroke = "black" stroke-width = "0" fill = "black" fill-opacity = "1"/>
+<circle cx = "726.115" cy = "708.098" r = "0.5" stroke = "black" stroke-width = "0" fill = "black" fill-opacity = "1"/>
+<circle cx = "653.862" cy = "709.513" r = "0.5" stroke = "black" stroke-width = "0" fill = "black" fill-opacity = "1"/>
+<circle cx = "284.878" cy = "724.664" r = "0.5" stroke = "black" stroke-width = "0" fill = "black" fill-opacity = "1"/>
+<circle cx = "496.791" cy = "736.388" r = "0.5" stroke = "black" stroke-width = "0" fill = "black" fill-opacity = "1"/>
+</svg>
